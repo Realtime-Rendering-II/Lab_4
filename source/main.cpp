@@ -70,6 +70,7 @@ int main(int argc, const char *argv[]) {
         uploadMatrices(normal_shader.get_program());
 
         // TODO 3: compute for each object in the c3dobjects the distance to the camera
+        // NOTE: For this implement and use the function update_distance_to_camera defined in c3dobject.cpp
         // NOTE: the distance to the camera is the shortest distance between the bounding box vertices and the camera
 
         // TODO 4: sort the objects in the c3dobjects vector according to their distance to the camera
