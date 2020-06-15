@@ -82,9 +82,9 @@ int main(int argc, const char *argv[]) {
 
         // TODO 6: If occlusion culling is deactivated draw all c3dobjects vector.
         // TODO 6: If the occlusion culling is activated test for each sphere if its bounding box is visible before you draw it
-        // Note: you can modify the value of the variable occlusion_culling by pressing the key "0"
-        // Note: draw for each object first the bounding box and see if it is visible and afterwards draw the object itself if the bounding box was visible
-        // Note: if you are in front of a sphere and no other sphere can be seen the number of draw calls should be 1
+        // NOTE: you can modify the value of the variable occlusion_culling by pressing the key "0"
+        // NOTE: draw for each object first the bounding box and see if it is visible and afterwards draw the object itself if the bounding box was visible
+        // NOTE: if you are in front of a sphere and no other sphere can be seen the number of draw calls should be 1
 
         // TODO 7: end the query measuring the time, receive the value and transform it into a float that resembles the time in ms
 
